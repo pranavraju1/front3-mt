@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.big-container{
+  display: flex;
+  flex-direction: column;
+  /* width: 100vw; */
+  /* height: 100vw; */
+  background-color: black;
+}
+#IP{
+  color: rgba(184, 188, 204, 0.50);
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 59px;
+  margin-left: 41px;
+}
+.pg1-details{
+  display: flex;
+  flex-direction: column;
+  color: rgba(184, 188, 204, 0.50);
+  font-family: Inter;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.pg1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 41px;
+  margin-right: 41px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.map-container{
+  width: 100%;
+  height: 800px;
+  background: #575A85;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 47px;
+}
+.map-container-h{
+  color: #B8BCCC;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#map{
+  width: 80%;
+  height: 70%;
+  outline: 2px solid red;
+  ;
+}
+.more-info{
+  color: #B8BCCC;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 75px;
+}
+.inbtn{
+  width: 70% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 61px;
+}
+
+.card{
+  /* width: 678.392px;
+  height: 399px; */
+  width: 100%;
+  border-radius: 10px;
+  background-color: #575A85 !important;
+  color: white;
+  /* background: #575A85; */
+  display: flex;
+  flex-direction: column;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+
+.grids{
+  display: grid;
+  column-gap: 58px;
+  row-gap: 61px;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
