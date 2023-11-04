@@ -49,10 +49,14 @@
 .left3{
   margin-top: 60px;
   align-items: center;
-  margin-left: 125px;
-  width: 482px;
-  height: 462px;
-  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+}
+.left3-img{
+  width: 100%;
+  height: 100%;
 }
 .right1{
   color: #B8BCCC;
